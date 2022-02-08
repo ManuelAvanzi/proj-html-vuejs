@@ -7,7 +7,7 @@
             <img src="../assets/images/artist-hero-image-04.jpg" class="hero-image third" alt="">
 
             <div class="text-container">
-                <div class="hello"><span>Hello, im Matin</span></div>
+                <div class="hello"><span class="light-blue">Hello, im Matin</span></div>
                 <div class="main-text">
                     <h1>Artist Coaching And Mentoring Might Be For You</h1>
                     <button>get started today</button>
@@ -27,17 +27,21 @@ export default {
 
 
 <style lang="scss" scoped>
+@import '@/style/variables.scss';
    .jumbotron-container{
        width: 100%;
        height: 450px;
        background-color: pink;
-       position:absolute;
+       
 
        .text-container{
            border:1px solid grey;
            width: 300px;
            margin:0 auto;
            text-align: center;
+           .light-blue{
+               color:$cerulean;
+           }
        }
 
        .hero-image{
