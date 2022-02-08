@@ -2,6 +2,7 @@
   <div id="app">
      <header-timeline/>
      <header-menu/>
+     <header-jumbo/>
   </div>
 </template>
 
@@ -9,17 +10,20 @@
 
 import headerTimeline from './components/headerTimeline.vue'
 import headerMenu  from './components/headerMenu.vue'
+import HeaderJumbo from './components/headerJumbo.vue'
 
 
 export default {
   components: { 
     headerTimeline,
-    headerMenu
+    headerMenu,
+    HeaderJumbo
   },
  
 }
 </script>,
-    HeaderMenu
+,
+    HeaderJumbo    HeaderMenu
 
 <style lang="scss">
   @import 'style/main.scss'
