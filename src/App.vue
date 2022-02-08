@@ -6,6 +6,7 @@
      <main-a/>
      <main-b/>
      <main-c/>
+     <main-d/>
   </div>
 </template>
 
@@ -17,6 +18,7 @@ import HeaderJumbo from './components/headerJumbo.vue'
 import MainA from './components/mainA.vue'
 import MainB from './components/mainB.vue'
 import MainC from './components/mainC.vue'
+import MainD from './components/MainD.vue'
 
 
 
@@ -27,7 +29,8 @@ export default {
     HeaderJumbo,
     MainA,
     MainB,
-    MainC
+    MainC,
+    MainD
     
   },
  
