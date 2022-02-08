@@ -76,6 +76,7 @@ export default {
 .container-a{
    width: 100%;
    
+   
    .text-container{
        
        width: 300px;
@@ -91,7 +92,7 @@ export default {
    .four-boxes{
        
        width: 70%;
-       height: 500px;
+       height: 250px;
        margin:0 auto;
        display: flex;
 

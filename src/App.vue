@@ -4,6 +4,7 @@
      <header-menu/>
      <header-jumbo/>
      <main-a/>
+     <main-b/>
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import headerTimeline from './components/headerTimeline.vue'
 import headerMenu  from './components/headerMenu.vue'
 import HeaderJumbo from './components/headerJumbo.vue'
 import MainA from './components/mainA.vue'
+import MainB from './components/mainB.vue'
 
 
 export default {
@@ -20,7 +22,8 @@ export default {
     headerTimeline,
     headerMenu,
     HeaderJumbo,
-    MainA
+    MainA,
+    MainB
   },
  
 }
