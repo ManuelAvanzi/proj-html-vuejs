@@ -7,6 +7,8 @@
      <main-b/>
      <main-c/>
      <main-d/>
+     <main-e/>
+     
   </div>
 </template>
 
@@ -18,7 +20,9 @@ import HeaderJumbo from './components/headerJumbo.vue'
 import MainA from './components/mainA.vue'
 import MainB from './components/mainB.vue'
 import MainC from './components/mainC.vue'
-import MainD from './components/MainD.vue'
+import MainD from './components/mainD.vue'
+import MainE from './components/mainE.vue'
+
 
 
 
@@ -30,7 +34,9 @@ export default {
     MainA,
     MainB,
     MainC,
-    MainD
+    MainD,
+    MainE
+    
     
   },
  

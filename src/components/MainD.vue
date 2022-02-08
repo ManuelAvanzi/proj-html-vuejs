@@ -124,7 +124,7 @@ export default {
     .button-container{
         margin:20px auto;
         width: 50%;
-        text-align: center;
+        text-align: center; 
         button{
             background-color: rgba(253, 75, 75, 0.5);
             color:red;
