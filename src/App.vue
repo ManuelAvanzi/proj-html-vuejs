@@ -1,20 +1,25 @@
 <template>
   <div id="app">
-     <timeline-bar/>
+     <header-timeline/>
+     <header-menu/>
   </div>
 </template>
 
 <script>
 
-import timelineBar from './components/timelineBar.vue'
+import headerTimeline from './components/headerTimeline.vue'
+import headerMenu  from './components/headerMenu.vue'
+
 
 export default {
   components: { 
-    timelineBar 
+    headerTimeline,
+    headerMenu
   },
  
 }
-</script>
+</script>,
+    HeaderMenu
 
 <style lang="scss">
   @import 'style/main.scss'
