@@ -8,6 +8,7 @@
      <main-c/>
      <main-d/>
      <main-e/>
+     <main-f/>
      
   </div>
 </template>
@@ -22,6 +23,8 @@ import MainB from './components/mainB.vue'
 import MainC from './components/mainC.vue'
 import MainD from './components/mainD.vue'
 import MainE from './components/mainE.vue'
+import MainF from './components/mainF.vue'
+
 
 
 
@@ -35,7 +38,8 @@ export default {
     MainB,
     MainC,
     MainD,
-    MainE
+    MainE,
+    MainF
     
     
   },
