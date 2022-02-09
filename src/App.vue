@@ -10,7 +10,7 @@
      <main-e/>
      <main-f/>
      <footer-a/>
-     <footer-b/>
+     <footer-b :exploreList="this.exploreList" :informationList="this.informationList"/>
      
   </div>
 </template>
@@ -54,6 +54,8 @@ export default {
   data() {
     return {
       
+      //header menu 
+
       menuList: [
         'Home',
         'Pages',
@@ -61,6 +63,22 @@ export default {
         'Features',
         'Blog',
         'Shop',
+      ],
+
+      //footer list 
+      exploreList: [
+        'Start here',
+        'Success story',
+        'Blog',
+        'Courses',
+        'About us',
+        'Contact us'
+      ],
+      informationList: [
+        'Membership',
+        'Puchase guide',
+        'Privacy policy',
+        'Terms of services'
       ],
     }
   }

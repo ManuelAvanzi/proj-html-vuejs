@@ -18,19 +18,12 @@
 
         <div class="middle-section">
             <ul>
-                <li>Start here</li>
-                <li>Start here</li>
-                <li>Start here</li>
-                <li>Start here</li>
-                <li>Start here</li>
+                <li v-for="(link, index) in exploreList" :key="index">{{link}}  </li>               
             </ul>
             <ul>
-                <li>Start here</li>
-                <li>Start here</li>
-                <li>Start here</li>
-                <li>Start here</li>
-                <li>Start here</li>
+                <li v-for="(link, index) in informationList" :key="index">{{link}}  </li>               
             </ul>
+            
         </div>
 
         <div class="right-section">
@@ -48,7 +41,11 @@
 
 <script>
 export default {
-    
+    props:{
+      exploreList: Array,
+      informationList: Array,
+
+  }
 }
 </script>
 
