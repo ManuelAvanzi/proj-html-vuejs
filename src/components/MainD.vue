@@ -114,7 +114,7 @@ export default {
 
 
 <style lang="scss" scoped>
-@import '@/style/variables.scss';
+
 
 .section-container{
     width: 100%;

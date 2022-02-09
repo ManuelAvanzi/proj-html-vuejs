@@ -1,7 +1,7 @@
 <template>
   <div id="app">
      <header-timeline/>
-     <header-menu/>
+     <header-menu :menuList="this.menuList"/>
      <header-jumbo/>
      <main-a/>
      <main-b/>
@@ -36,6 +36,7 @@ import FooterB from './components/footerB.vue'
 
 
 export default {
+  name: 'App',
   components: { 
     headerTimeline,
     headerMenu,
@@ -48,9 +49,21 @@ export default {
     MainF,
     FooterA,
     FooterB
-    
-    
   },
+
+  data() {
+    return {
+      
+      menuList: [
+        'Home',
+        'Pages',
+        'Courses',
+        'Features',
+        'Blog',
+        'Shop',
+      ],
+    }
+  }
  
 }
     

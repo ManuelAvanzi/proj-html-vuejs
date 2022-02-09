@@ -7,12 +7,7 @@
 
        <div class="nav-container">
            <ul>
-               <li>Home<i class="fas fa-chevron-down"></i></li>
-               <li>Pages<i class="fas fa-chevron-down"></i></li>
-               <li>Courses<i class="fas fa-chevron-down"></i></li>
-               <li>Features<i class="fas fa-chevron-down"></i></li>
-               <li>Blog<i class="fas fa-chevron-down"></i></li>
-               <li>Shop<i class="fas fa-chevron-down"></i></li>
+                <li v-for="(link, index) in menuList" :key="index">{{link}} <i class="fas fa-chevron-down"></i> </li>               
            </ul>
        </div>
 
@@ -28,7 +23,9 @@
 
 <script>
 export default {
-
+  props:{
+      menuList: Array,
+  }
 }
 </script>
 
