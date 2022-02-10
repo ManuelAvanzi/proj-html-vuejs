@@ -2,7 +2,7 @@
     <div class="container">
         <span>starts TOMORROW! Our biggest event of the year...
             <i class="far fa-clock"></i>
-            <span class="time-zero">00:00:00:00</span>
+            <span class="time-zero"><strong>00:00:00:00</strong></span>
             <button class="button">get ticket</button>
         </span>
     </div>
@@ -17,25 +17,12 @@ export default {
 
 
 <style lang="scss" scoped>
-.container{
-    width:100%;
-    height: 40px;
-    background-color: rgba(128, 128, 128, 0.863);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+@import '@/style/headerTop.scss';
+@import '@/style/variables.scss';
 
-    span{
-        color:rgb(70, 70, 70);
-        margin:0 20px;
-    }
-    button{
-        color:white;
-        padding:4px 10px;
-        background-color: orange;
-        border-radius: 5px;
-        border-color:none;
-    }
-}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 </style>

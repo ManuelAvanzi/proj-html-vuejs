@@ -11,6 +11,7 @@
      <main-f/>
      <footer-a/>
      <footer-b :exploreList="this.exploreList" :informationList="this.informationList"/>
+     <progetto-uno/>
      
   </div>
 </template>
@@ -30,6 +31,10 @@ import MainF from './components/mainF.vue'
 
 import FooterA from './components/footerA.vue'
 import FooterB from './components/footerB.vue'
+import ProgettoUno from './components/progettoUno.vue'
+
+
+
 
 
 
@@ -48,7 +53,11 @@ export default {
     MainE,
     MainF,
     FooterA,
-    FooterB
+    FooterB,
+    ProgettoUno,
+    
+    
+    
   },
 
   data() {
