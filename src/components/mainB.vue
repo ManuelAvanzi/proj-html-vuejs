@@ -8,9 +8,9 @@
               <span class="sign light-blue">Martin Garrix</span>
           </div>
           <div class="right-side">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, illum aliquid ex earum vitae tempora ad eos numquam corrupti perspiciatis consequuntur blanditiis doloribus ipsam temporibus iure voluptatem quibusdam. Est, sit!</p>
+              <p>As a coach and mentor, my ultimate goal is to motivate visual artists toward inspired action. I help you get you back on track to being the productive, creative, meaningful and authentic artist you truly want to be.I support artists in crafting and living a creative life as well as feeling good about themselves and their art.</p>
               <br>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+              <p>As an artist and an educator for nearly 30 years, I understand what it takes to create. </p>
               <button class>Get started today</button>
           </div>
         </div>
@@ -27,47 +27,5 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
-.quote{
-        
-        width: 35%;
-        
-        margin:0 auto;
-    }
-.container-b{
-    width: 70%;
-    height: 400px;
-    
-    margin:0 auto;
-    display: flex;
-    
-
-    
-    .left-side{
-        padding:50px;
-        width:50%;
-        text-align: center;
-        
-        .light-blue{
-            
-            font-size: 33px;
-            color:$cerulean;
-            
-        }
-    }
-    .right-side{
-        padding:50px;
-        width:50%;
-        margin-top:43px;
-        text-align: justify;
-
-        button{
-            color:rgba(228, 4, 4, 0.836);
-            background-color: rgba(255, 0, 0, 0.521);
-            padding:5px 10px;
-            border-radius:5px;
-            border-color:white;
-            margin-top:20px;
-        }
-    }
-}
+@import '@/style/mainB.scss';
 </style>

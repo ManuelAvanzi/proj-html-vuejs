@@ -1,0 +1,52 @@
+.quote{
+        
+    width: 35%;
+    
+    margin:0 auto;
+}
+.container-b{
+width: 70%;
+height: 400px;
+
+margin:0 auto;
+display: flex;
+
+
+
+.left-side{
+    padding:50px;
+    width:50%;
+    text-align: center;
+    
+    h1{
+        margin-bottom:90px;
+    }
+    .light-blue{
+        
+        font-size: 33px;
+        color:$cerulean;   
+    }
+}
+.right-side{
+    padding:50px;
+    width:50%;
+    margin-top:43px;
+    text-align: justify;
+
+    button{
+        color:rgba(233, 99, 50, 0.755);
+        padding:10px 15px;
+        margin-top:20px;
+        background-color: #ee80805f;
+        border:none;
+        border-radius: 5px;
+        border-color:none;
+
+        &:hover {
+        
+        background-color:rgba(247, 73, 10, 0.967);
+        color:white;
+    }
+    }
+}
+}
