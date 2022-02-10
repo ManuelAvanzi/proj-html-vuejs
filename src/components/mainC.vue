@@ -18,24 +18,42 @@
             <div class="left">
                 <h3>High level of efficiency and scientific teaching methods</h3>
                  <span>I am free to learn at my own pace, follow my own schedules and choose the subject i want to learn from the syllabus.Great study portal for people like me.</span>
+                 <div class="person-box">
+                     <img src="../assets/images/artist-testimonial-avatar-02.jpg" alt="">
+                     <div class="person-info">
+                         <h4>Mina Hollace</h4><br>
+                         <span class="job">/Frelancer</span>
+                     </div>
+                     
+                 </div>
             </div>
             <div class="middle">
-                <h3>High level of efficiency and scientific teaching methods</h3>
-                 <span>I am free to learn at my own pace, follow my own schedules and choose the subject i want to learn from the syllabus.Great study portal for people like me.</span>
+                <h3>Professional team of specialists and passionate mentors at reach</h3>
+                <span>I need to get a certification for English proficiency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.	</span>
+                <div class="person-box">
+                     <img src="../assets/images/artist-testimonial-avatar-04.jpg" alt="">
+                     <div class="person-info">
+                         <h4>Florence Themes</h4><br>
+                         <span class="job">/Frelancer</span>
+                     </div>
+                     
+                 </div>
             </div>
             <div class="right">
-                <h3>High level of efficiency and scientific teaching methods</h3>
-                 <span>I am free to learn at my own pace, follow my own schedules and choose the subject i want to learn from the syllabus.Great study portal for people like me.</span>
+                <h3>The MaxCoach team works really hard to ensure high quality</h3>
+                 <span>I am happy with their arrangement of lessons and subjects. They reflect a scientific  investigation into effective methods to be adopted for learners.</span>
+                <div class="person-box">
+                     <img src="../assets/images/artist-testimonial-avatar-01.jpg" alt="">
+                     <div class="person-info">
+                         <h4>Jacob Collier</h4><br>
+                         <span class="job">/It specialist</span>
+                     </div>
+                     
+                 </div>
             </div>
         </div>
 
-        <div class="navigator">
-            <ul>
-                <li><i class="fas fa-circle"></i></li>
-                <li><i class="fas fa-circle"></i></li>
-                <li><i class="fas fa-circle"></i></li>
-            </ul>
-        </div>
+       
     </div>
 </template>
 
@@ -47,93 +65,6 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
+@import '@/style/mainC.scss';
 
-
-.section-container{
-    position:relative;
-    height: 850px;
-    border:1px solid yellow;
-    .dots{
-            position:absolute;
-            top:250px;
-            left:70%;
-            z-index: -1;
-
-        }
-    .points{
-        position:absolute;
-        width:110px;
-        left:20%;
-        z-index: -1;
-        
-    }
-
-    .youtube-section{
-      
-
-        
-        margin:20px auto;
-
-        width: 54%;
-        height: 370px;
-        background-image: url('../assets/images/artist-video-poster.jpg');
-        background-size: contain;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 1234;
-        
-        img{
-            width: 70px;
-        }
-        
-    }
-
-    .center-text{
-
-        margin:50px auto;
-        text-align: center;
-        .testimonials{
-            color:$cerulean;
-        }
-    }
-    .slider-section{
-        width: 80%;
-        height: 300px;
-        
-        margin:0 auto;
-
-        display: flex;
-        justify-content: space-between;
-
-        .left,.middle,.right{
-
-            width: 30%;
-            background-color: rgba(187, 178, 178, 0.644);
-            
-            text-align: justify;
-            padding:10px;
-            h3{
-                margin-bottom:20px;
-            }
-
-        }
-    }
-    .navigator{
-        margin:10px auto;
-        
-        width: 200px;
-
-        ul{
-            display: flex;
-            justify-content: center;
-            li{
-                margin-right:5px;
-                list-style: none;
-                cursor: pointer;
-            }
-
-        }
-    }
-}
 </style>

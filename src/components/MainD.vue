@@ -155,7 +155,7 @@ export default {
                 padding:20px;
                 margin-bottom:20px;
                 .price{
-                    color:red;
+                    color:#f28d5d;
                  
                 }
                 h3{
