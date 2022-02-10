@@ -32,62 +32,6 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
-.menu-container{
-    width: 100%;
-    height: 70px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border:1px solid green;
+@import '@/style/headermenu.scss';
 
-
-    .logo-container{
-        
-        
-        img{
-            width: 200px;
-        }
-    }
-
-    .nav-container{
-        
-       
-        
-        ul{
-            display: flex;
-            list-style: none;
-            
-            li{
-                padding:10px;
-                cursor: pointer;
-                margin-right:2px;
-                    
-                 &:hover{
-                    color:$blue; 
-                 }
-                 .fas,.fa-chevron-down{
-                     width: 10px;
-                     
-                     padding:0 3px;
-                 }
-               }
-        }
-    }
-
-    .social-container{
-        
-        .fa-twitter,.fa-facebook-f,.fa-linkedin,.fa-instagram{
-            font-size: 30px;
-            width: 30px;
-            padding:5px;
-        }
-        
-    }
-   
-        
-    
-    
-    
-    
-}
 </style>
