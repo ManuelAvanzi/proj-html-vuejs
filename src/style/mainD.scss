@@ -3,7 +3,6 @@
 .section-container{
     width: 100%;
     
-    border:1px solid red;
     
     .button-container{
         margin:10px auto;
@@ -56,6 +55,7 @@
             .card-text-container{
                 padding:20px;
                 margin-bottom:20px;
+                border:2px solid white;
                 width:90%;
                 
                 &:hover {
