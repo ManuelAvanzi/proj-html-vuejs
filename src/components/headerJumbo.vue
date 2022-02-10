@@ -7,7 +7,7 @@
             <img src="../assets/images/artist-hero-image-04.jpg" class="hero-image third" alt="">
 
             <div class="text-container">
-                <div class="hello"><span class="light-blue">Hello, im Matin</span></div>
+                <div class="hello"><span class="sign">Hello, im Matin</span></div>
                 <div class="main-text">
                     <h1>Artist Coaching And Mentoring Might Be For You</h1>
                     <button>get started today</button>
@@ -39,8 +39,12 @@ export default {
            width: 300px;
            margin:0 auto;
            text-align: center;
-           .light-blue{
-               color:$cerulean;
+           .sign{
+                   font-family: "Rossela Demo", Sans-serif;
+                    font-size: 64px;
+                    font-weight: 400;
+                    color: $cerulean;
+                }
            }
        }
 
@@ -61,6 +65,6 @@ export default {
            top:180px;
            left:650px;
        }
-   }
+   
    
 </style>

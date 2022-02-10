@@ -23,6 +23,7 @@ export default {
 
 
 <style lang="scss" scoped>
+@import '@/style/variables.scss';
 
      .section-container{
          width: 100%;
@@ -34,7 +35,7 @@ export default {
              display: flex;
              justify-content: center;
              align-items: center;
-             background-color: rgba(15, 15, 158, 0.481);
+             background-color: $blue;
              .left-side{
                  margin:0 30px;
                  color:white;
