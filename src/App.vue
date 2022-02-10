@@ -94,10 +94,10 @@ export default {
  
 }
     
-</script>,
-,
-    HeaderJumbo    HeaderMenu
+</script>
+
+  
 
 <style lang="scss">
-  @import 'style/main.scss'
+  @import 'style/app.scss'
 </style>
