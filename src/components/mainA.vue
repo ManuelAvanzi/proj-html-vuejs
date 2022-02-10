@@ -1,6 +1,9 @@
 <template>
     <div class="container-a">
-        
+        <img class="sfondo" src="../assets/images/maxcoach-shape-03.png" alt="">
+        <img class="circle" src="../assets/images/maxcoach-shape-13.png" alt="">
+        <img class="leaf-left rotate180" src="../assets/images/artist-shape-01.png" alt="">
+
         <div class="text-container">
             <span class="light-blue">Artist Coaching</span>
             <h1 class="main-text">I understand what it takes to create. I can help you with</h1>
@@ -73,44 +76,6 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
-.container-a{
-   width: 100%;
-   
-   
-   .text-container{
-       
-       width: 300px;
-       margin:20px auto;
-       border:1px solid grey;
-       text-align: center;
+@import '@/style/mainA.scss';
 
-       .ligh-blue{
-           color:$cerulean;
-       }
-   }
-
-   .four-boxes{
-       
-       width: 70%;
-       height: 250px;
-       margin:0 auto;
-       display: flex;
-
-       .box{
-           
-           width: 25%;
-
-           .box-text{
-               padding-right:20px;
-           }
-
-       }
-       .b{
-           margin-top:30px;
-       }
-       .d{
-           margin-top:60px;
-       }
-   }
-}
 </style>

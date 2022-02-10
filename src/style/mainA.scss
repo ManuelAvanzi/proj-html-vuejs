@@ -1,0 +1,72 @@
+
+@import '@/style/variables.scss';
+.container-a{
+     width: 100%;
+     
+     position:relative; 
+      .sfondo{
+          width: 100%;
+          opacity: 0.3;
+          position:absolute;
+      }
+      .circle{
+          opacity: 0.5;
+          position: absolute;
+          top:50px;
+          right:0;
+      }
+      .leaf-left{
+          position:absolute;
+          top:30px;
+          left:0;
+          width:400px;
+      }
+      .rotateimg180 {
+        -webkit-transform:rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
+}
+   
+
+
+   
+
+   
+   .text-container{
+       
+       width: 300px;
+       margin:20px auto;
+       border:1px solid grey;
+       text-align: center;
+
+       .ligh-blue{
+           color:$cerulean;
+       }
+   }
+
+   .four-boxes{
+
+       width: 70%;
+       height: 250px;
+       margin:0 auto;
+       display: flex;
+
+       .box{
+           
+           width: 25%;
+
+           .box-text{
+               padding-right:20px;
+           }
+
+       }
+       .b{
+           margin-top:30px;
+       }
+       .d{
+           margin-top:60px;
+       }
+   }
+}
