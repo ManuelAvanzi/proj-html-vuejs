@@ -1,13 +1,13 @@
 <template>
     <div class="section-container">
-        <div class="left-section">
+        <div class="box left-section">
             <h3>Adress</h3>
             <span>
                 382 NE 191st # 87394 Miami, Fl 33179-3899
                 +1(305) 547-9909 (9am - 5pm EST, Monday - Friday)
                 support@maxcoach.com
             </span>
-            <div class="social-container">
+            <div class=" social-container">
                 <i class="fab fa-twitter"></i>
                 <i class="fab fa-facebook-f"></i>
                 <i class="fab fa-instagram"></i>
@@ -16,22 +16,30 @@
 
         </div>
 
-        <div class="middle-section">
-            <ul>
-                <li v-for="(link, index) in exploreList" :key="index">{{link}}  </li>               
-            </ul>
-            <ul>
-                <li v-for="(link, index) in informationList" :key="index">{{link}}  </li>               
-            </ul>
+        <div class="box middle-section">
+            <div class="list-container">
+                <ul>
+                    <li><h3>Explore</h3></li>
+                    <li v-for="(link, index) in exploreList" :key="index">{{link}}  </li>               
+               </ul>
+            </div>
+            <div class="list-container">
+                <ul>
+                    <li><h3>Information</h3></li>
+                    <li v-for="(link, index) in informationList" :key="index">{{link}}  </li>               
+                </ul>
+            </div>
+            
+            
             
         </div>
 
-        <div class="right-section">
-            <h3>Instagram</h3><span>@maxcoach</span>
+        <div class="box right-section">
+            <span>Instagram</span> <span id="orange">@maxcoach</span>
             <div class="pics-container">
-                <img src="../assets/images/artist-event-01-250x300.jpg">
-                <img src="../assets/images/artist-event-01-250x300.jpg">
-                <img src="../assets/images/artist-event-01-250x300.jpg">
+                <img src="../assets/images/artist-blog-01-480x356.jpg">
+                <img src="../assets/images/120012142_177596140500760_8623485824101406058_n.jpg">
+                <img src="../assets/images/120099363_364334431619755_7198812647386067017_n.jpg">
                 
             </div>
         </div>
@@ -52,40 +60,7 @@ export default {
 
 
 <style lang="scss" scoped>
-.section-container{
-    width:100%;
-    height:400px;
-    border:1px solid green;
-    display: flex;
-
-    .left-section{
-        width: 30%;
-        border:1px solid red;
-    }
-    .middle-section{
-        width:30%;
-        border:1px solid blue;
-        display: flex;
-    }
-    .right-section{
-        .pics-container{
-           
-           display: flex;
-           justify-content: center;
-
-           img{
-               width:150px;
-               height:150px;
-               margin:10px;
-           }
-        
-
-        
-        
-            
-        }
-       
-    }
-}
+@import '@/style/variables.scss';
+@import '@/style/footerB.scss';
 
 </style>
