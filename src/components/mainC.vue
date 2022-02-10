@@ -1,7 +1,12 @@
 <template>
     <div class="section-container">
+         <img  class="points" src="../assets/images/maxcoach-shape-12.png">
+         <img  class="dots"      src="../assets/images/maxcoach-shape-12.png">
+
+
         <div class="youtube-section">
            <img src="../assets/images/icon-youtube-play.png" alt="">
+          
         </div>
 
         <div class="center-text">
@@ -45,19 +50,38 @@ export default {
 
 
 .section-container{
-    
+    position:relative;
     height: 850px;
+    border:1px solid yellow;
+    .dots{
+            position:absolute;
+            top:250px;
+            left:70%;
+            z-index: -1;
+
+        }
+    .points{
+        position:absolute;
+        width:110px;
+        left:20%;
+        z-index: -1;
+        
+    }
 
     .youtube-section{
-        margin:0 auto;
+      
 
-        width: 45%;
-        height: 320px;
+        
+        margin:20px auto;
+
+        width: 54%;
+        height: 370px;
         background-image: url('../assets/images/artist-video-poster.jpg');
         background-size: contain;
         display: flex;
         justify-content: center;
         align-items: center;
+        z-index: 1234;
         
         img{
             width: 70px;
