@@ -5,7 +5,7 @@
         <img class="leaf-left rotate180" src="../assets/images/artist-shape-01.png" alt="">
 
         <div class="text-container">
-            <span class="light-blue">Artist Coaching</span>
+            <span class="sign light-blue">Artist Coaching</span>
             <h1 class="main-text">I understand what it takes to create. I can help you with</h1>
         </div>
 
@@ -75,7 +75,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
 @import '@/style/variables.scss';
 @import '@/style/mainA.scss';
+
 
 </style>

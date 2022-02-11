@@ -9,3 +9,32 @@ $red:#d71f18;
 $malibu:#69a0fd;
 $brown:#784619;
 $ocra:#efab43;
+
+//utily 
+.sign{
+    font-family: 'Comforter', cursive;
+    font-size: 40px;
+    color: $cerulean;
+}
+
+button{
+    color:rgba(233, 99, 50, 0.755);
+    padding:10px 15px;
+       
+    background-color: #ee80805f;
+    border:none;
+    border-radius: 5px;
+    border-color:none;
+}
+
+
+h1,h2,h3,span{
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    cursor:pointer;
+    &:hover{
+        color:$cerulean;
+    }
+}

@@ -114,5 +114,6 @@ export default {
 
 
 <style lang="scss" scoped>
+@import '@/style/variables.scss';
 @import '@/style/mainD.scss';
 </style>

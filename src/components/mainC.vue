@@ -10,7 +10,7 @@
         </div>
 
         <div class="center-text">
-            <span class="testimonials">Testimonials</span>
+            <span class="sign">Testimonials</span>
             <h1>Why do people love me ?</h1>
         </div>
 

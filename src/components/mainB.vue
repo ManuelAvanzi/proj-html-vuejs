@@ -5,7 +5,7 @@
           <div class="left-side">
                <img src="../assets/images/artist-quote-icon.png" alt="">
               <h1>I coach and mentor visual artists,like you, to Create like you Mean it</h1>
-              <span class="sign light-blue">Martin Garrix</span>
+              <span class="sign">Martin Garrix</span>
           </div>
           <div class="right-side">
               <p>As a coach and mentor, my ultimate goal is to motivate visual artists toward inspired action. I help you get you back on track to being the productive, creative, meaningful and authentic artist you truly want to be.I support artists in crafting and living a creative life as well as feeling good about themselves and their art.</p>
