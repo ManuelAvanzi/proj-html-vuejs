@@ -75,4 +75,5 @@ export default {
 @import '../style/variables.scss';
 @import '../style/mainStyle/mainE.scss';
 
+
 </style>
