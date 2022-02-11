@@ -1,5 +1,6 @@
 <template>
     <div class="section-container">
+        
         <div class="box left-section">
             <h3>Adress</h3>
             <span>
@@ -32,6 +33,7 @@
             
             
             
+            
         </div>
 
         <div class="box right-section">
@@ -42,6 +44,11 @@
                 <img src="../assets/images/120099363_364334431619755_7198812647386067017_n.jpg">
                 
             </div>
+            <div class="arrow-container">
+            <a href="#">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
         </div>
     </div>
 </template>
@@ -62,5 +69,5 @@ export default {
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
 @import '@/style/footerStyle/footerB.scss';
-
+ 
 </style>
