@@ -34,12 +34,6 @@ import FooterB from './components/footerB.vue'
 
 
 
-
-
-
-
-
-
 export default {
   name: 'App',
   components: { 

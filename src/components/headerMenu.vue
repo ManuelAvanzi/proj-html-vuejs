@@ -1,6 +1,6 @@
 <template>
     <div class="menu-container">
-       <div class="logo-container">
+       <div class="logo-container" >
            <img src="../assets/images/dark-logo.png" alt="logo">
        </div>
 
@@ -25,6 +25,7 @@
 export default {
   props:{
       menuList: Array,
+
   }
 }
 </script>
