@@ -75,9 +75,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../style/mainStyle/mainA.scss';
+@import '../style/variables.scss';
 @import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
-@import '@/style/variables.scss';
-@import '@/style/mainA.scss';
 
 
 </style>

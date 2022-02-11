@@ -64,7 +64,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '@/style/variables.scss';
-@import '@/style/mainC.scss';
+@import '../style/variables.scss';
+@import '../style/mainStyle/mainC.scss';
+
 
 </style>

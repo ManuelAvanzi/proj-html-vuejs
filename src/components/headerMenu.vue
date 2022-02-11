@@ -31,7 +31,7 @@ export default {
 
 
 <style lang="scss" scoped>
-@import '@/style/variables.scss';
-@import '@/style/headermenu.scss';
+@import '../style/headerStyle/headermenu.scss';
+@import '../style/variables.scss';
 
 </style>

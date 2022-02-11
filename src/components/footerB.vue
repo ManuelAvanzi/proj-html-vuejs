@@ -61,6 +61,6 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
-@import '@/style/footerB.scss';
+@import '@/style/footerStyle/footerB.scss';
 
 </style>

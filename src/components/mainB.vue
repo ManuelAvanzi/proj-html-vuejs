@@ -26,6 +26,7 @@ export default {
 
 
 <style lang="scss" scoped>
-@import '@/style/variables.scss';
-@import '@/style/mainB.scss';
+@import '../style/variables.scss';
+@import '../style/mainStyle/mainB.scss';
+
 </style>

@@ -27,24 +27,6 @@ export default {
 
 
 <style lang="scss" scoped>
-@import '@/style/variables.scss';
-
-     .section-container{
-         width: 100%;
-         height: 180px;
-
-         .stripe-container{
-             width: 100%;
-             height:180px;
-             display: flex;
-             justify-content: center;
-             align-items: center;
-             background-color: $blue;
-             .left-side{
-                 margin:0 30px;
-                 color:white;
-             }
-         }
-     }
-
+@import '../style/variables.scss';
+@import '../style/footerStyle/footerA.scss';
 </style>

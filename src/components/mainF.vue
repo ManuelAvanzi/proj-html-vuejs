@@ -89,6 +89,7 @@ export default {
 
 
 <style lang="scss" scoped>
-@import '@/style/variables.scss';
-@import '@/style/mainF.scss';
+@import '../style/variables.scss';
+@import '../style/mainStyle/mainF.scss';
+
 </style>

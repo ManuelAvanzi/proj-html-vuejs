@@ -34,6 +34,7 @@ export default {
 
 
 <style lang="scss" scoped>
-@import '@/style/headerJumbo.scss';
+@import '../style/headerStyle/headerJumbo.scss';
+@import '../style/variables.scss';
 
 </style>

@@ -17,12 +17,10 @@ export default {
 
 
 <style lang="scss" scoped>
-@import '@/style/headerTop.scss';
-@import '@/style/variables.scss';
-
-
-
-
+@import '../style/headerStyle/headerTop.scss';
+@import '../style/variables.scss';
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 
 </style>
